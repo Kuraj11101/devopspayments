@@ -6,10 +6,10 @@ export default function HomeNavbar() {
 	return (
 		<nav className="navbar bg-white">
 			<div className="container-fluid">
-				<a href="/" className="navbar-brand ms-3">
+				<Link href="/" className="navbar-brand ms-3">
 					{/* <img src={Tpod} width={100} height={50} /> */}
 					<Image src="/Tpod.png" alt="Vercel Logo" width={80} height={40} />
-				</a>
+				</Link>
 				<div className="d-flex">
           <div className="d-flex align-items-center">
 
