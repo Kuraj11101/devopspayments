@@ -34,12 +34,12 @@ export default function Home() {
          </p>
 
          <div className={styles.grid}>
-          <a href="/JoinATeam" className={styles.card}>
+          <a href='/JoinATeam' className={styles.card}>
             <h2>Join A Team &rarr;</h2>
             <p>Find a TeamPod to join and enjoy a private socio-economic community.</p>
           </a>
 
-          <a href="/CreateATeam" className={styles.card}>
+          <a href='/CreateATeam' className={styles.card}>
             <h2>Create A Team &rarr;</h2>
             <p>Create a Team and invite team members to form a secure financial savings club as Finance Pods in a socio-economic community.</p>
           </a>

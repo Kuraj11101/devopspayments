@@ -1,13 +1,14 @@
 // import Tpod from "../public/Tpod.png"
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function HomeNavbar() {
 	return (
 		<nav className="navbar bg-white">
 			<div className="container-fluid">
-				<Link to="/" className="navbar-brand ms-3">
+				<Link href="/" className="navbar-brand ms-3">
 					{/* <img src={Tpod} width={100} height={50} /> */}
 					<Image src="/Tpod.png" alt="Vercel Logo" width={80} height={40} />
 				</Link>

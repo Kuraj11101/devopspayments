@@ -3,6 +3,7 @@ import Image from 'next/image'
  import Link from 'next/link'
 //import { Link } from "react-router-dom";
 import styles from '../styles/Home.module.css'
+import HomeNavbar from '../components/HomeNavbar'
 
 import React, { useState } from "react";
 

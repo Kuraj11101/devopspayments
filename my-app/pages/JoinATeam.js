@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-// import Link from 'next/link'
-import { Link } from "react-router-dom";
+ import Link from 'next/link'
+// import { Link } from "react-router-dom";
 import styles from '../styles/Home.module.css'
 import HomeNavbar from '../components/HomeNavbar'
 
@@ -41,7 +41,7 @@ export default function JoinATeam() {
         </p>
 
         <div className={styles.grid}>
-          <a  href='/JoinATeam' className={styles.card}>
+          <a href='/' className={styles.card}>
             <h2>Jab Pod</h2>
                 {/* &rarr; */}
             <p>Stake is $200 per month. Pod size limit is 20 with two team members as earners each month.</p>
