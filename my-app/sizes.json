@@ -1,0 +1,9 @@
+
+{
+    "data": [
+        {"name": "5-10", "code": "FTen"},
+        {"name": "10-20", "code": "TTwenty"},
+        {"name": "20-50", "code": "TFifty"},
+        {"name": "50-100", "code": "FHundred"}
+    ]
+}

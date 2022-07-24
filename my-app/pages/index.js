@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import HomeNavbar from '../components/HomeNavbar'
 import HomeBody from '../components/HomeBody'
 
+
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -22,27 +25,27 @@ export default function Home() {
           {/* <a href="https://nextjs.org"></a> */}
         </h1>
 
+
+
         <p className={styles.description}>
-          {/* <p style={{fontFamily: "Sans-Serif"}}> */}
             Closely connecting the world financially with protected team modeled community safe financing method!
-            {/* </p> */}
           {/* Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code> */}
-        </p>
+         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+         <div className={styles.grid}>
+          <a href="/JoinATeam" className={styles.card}>
             <h2>Join A Team &rarr;</h2>
             <p>Find a TeamPod to join and enjoy a private socio-economic community.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/CreateATeam" className={styles.card}>
             <h2>Create A Team &rarr;</h2>
             <p>Create a Team and invite team members to form a secure financial savings club as Finance Pods in a socio-economic community.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
             <h2>LP Funding &rarr;</h2>
@@ -50,12 +53,12 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Socio-Economic Community File Storage &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Have your community chat, files, images and protected and store separately off your device with your own private key.
             </p>
           </a>
         </div>
@@ -63,13 +66,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/Tpod.png" alt="Logo" width={80} height={30} />
           </span>
         </a>
       </footer>
