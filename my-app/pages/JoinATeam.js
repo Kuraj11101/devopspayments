@@ -74,28 +74,28 @@ export default function JoinATeam() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/JoinATeam" className={styles.card}>
+          <Link href="/JoinATeam" className={styles.card}>
             <h2>Jab Pod</h2>
                 {/* &rarr; */}
             <p>Stake is $200 per month. Pod size limit is 20 with two team members as earners each month.</p>
-          </a>
+          </Link>
 
-          <a href="" className={styles.card}>
+          <Link href="" className={styles.card}>
             <h2>Yop Pod</h2>
                  {/* &rarr; */}
             <p>Stake is $700 per month. Pod size limit is 30 with 5 team members as earners each month.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
             <h2>Quash Pod</h2>
                 {/* &rarr; */}
             <p>Stake is $2000 per month. Pod size limit is 15 with 2 team members as earners each month.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -105,9 +105,9 @@ export default function JoinATeam() {
             <p>
             Stake is $5000 per month. Pod size limit is 20 with 6 team members as earners each month.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -117,9 +117,9 @@ export default function JoinATeam() {
             <p>
             Stake is $7000 per month. Pod size limit is 50 with 5 team members as earners each month.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -129,8 +129,8 @@ export default function JoinATeam() {
             <p>
             Stake is $10,000 per month. Pod size limit is 50 with 5 team members as earners each month.
             </p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -140,8 +140,8 @@ export default function JoinATeam() {
             <p>
             Stake is $3000 per month. Pod size limit is 20 with 6 team members as earners each month.
             </p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -151,12 +151,12 @@ export default function JoinATeam() {
             <p>
             Stake is $15,000 per month. Pod size limit is 20 with 2 team members as earners each month.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -165,7 +165,7 @@ export default function JoinATeam() {
           <span className={styles.logo}>
             <Image src="/Tpod.png" alt=" Logo" width={80} height={30} />
           </span>
-        </a>
+        </Link>
       </footer>
     </div>
     )
