@@ -34,25 +34,25 @@ export default function Home() {
          </p>
 
          <div className={styles.grid}>
-          <a href="/JoinATeam" className={styles.card}>
+          <Link href="/JoinATeam" className={styles.card}>
             <h2>Join A Team &rarr;</h2>
             <p>Find a TeamPod to join and enjoy a private socio-economic community.</p>
-          </a>
+          </Link>
 
-          <a href="/CreateATeam" className={styles.card}>
+          <Link href="/CreateATeam" className={styles.card}>
             <h2>Create A Team &rarr;</h2>
             <p>Create a Team and invite team members to form a secure financial savings club as Finance Pods in a socio-economic community.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href=""
             className={styles.card}
           >
             <h2>LP Funding &rarr;</h2>
             <p>Join an investment pool and invest your money with a 4% interest to be made by providing credit funds to secure TeamPod savings members.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href=""
             className={styles.card}
           >
@@ -60,12 +60,12 @@ export default function Home() {
             <p>
               Have your community chat, files, images and protected and store separately off your device with your own private key.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href=""
           target="_blank"
           rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/Tpod.png" alt="Logo" width={80} height={30} />
           </span>
-        </a>
+        </Link>
       </footer>
     </div>
   )
