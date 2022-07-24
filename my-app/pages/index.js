@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+ import Link from 'next/link'
+//import { Link } from "react-router-dom";
 import styles from '../styles/Home.module.css'
 import HomeNavbar from '../components/HomeNavbar'
-import HomeBody from '../components/HomeBody'
+
 
 
 export default function Home() {
@@ -17,7 +18,6 @@ export default function Home() {
       </Head>
 
       <HomeNavbar />
-      {/* <HomeBody /> */}
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -45,7 +45,7 @@ export default function Home() {
           </a>
 
           <a
-            href=""
+            href="/"
             className={styles.card}
           >
             <h2>LP Funding &rarr;</h2>
@@ -53,7 +53,7 @@ export default function Home() {
           </a>
 
           <a
-            href=""
+            href="/"
             className={styles.card}
           >
             <h2>Socio-Economic Community File Storage &rarr;</h2>
@@ -66,7 +66,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -1,44 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import { useCallback, useRef, useState } from 'react'
+// import Link from 'next/link'
+import { Link } from "react-router-dom";
 import styles from '../styles/Home.module.css'
 import HomeNavbar from '../components/HomeNavbar'
 
 export default function JoinATeam() {
-
-//     const searchRef = useRef(null)
-//   const [query, setQuery] = useState('')
-//   const [active, setActive] = useState(false)
-//   const [results, setResults] = useState([])
-
-//   const searchEndpoint = (query) => `/api/search?q=${query}`
-
-//   const onChange = useCallback((event) => {
-//     const query = event.target.value;
-//     setQuery(query)
-//     if (query.length) {
-//       fetch(searchEndpoint(query))
-//         .then(res => res.json())
-//         .then(res => {
-//           setResults(res.results)
-//         })
-//     } else {
-//       setResults([])
-//     }
-//   }, [])
-
-//   const onFocus = useCallback(() => {
-//     setActive(true)
-//     window.addEventListener('click', onClick)
-//   }, [])
-
-//   const onClick = useCallback((event) => {
-//     if (searchRef.current && !searchRef.current.contains(event.target)) {
-//       setActive(false)
-//       window.removeEventListener('click', onClick)
-//     }
-//   }, [])
 
     return (
         <div className={styles.container}>
@@ -74,20 +41,20 @@ export default function JoinATeam() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/JoinATeam" className={styles.card}>
+          <a  href='/JoinATeam' className={styles.card}>
             <h2>Jab Pod</h2>
                 {/* &rarr; */}
             <p>Stake is $200 per month. Pod size limit is 20 with two team members as earners each month.</p>
           </a>
 
-          <a href="" className={styles.card}>
+          <a href="/" className={styles.card}>
             <h2>Yop Pod</h2>
                  {/* &rarr; */}
             <p>Stake is $700 per month. Pod size limit is 30 with 5 team members as earners each month.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+             href="/"
             className={styles.card}
           >
             <h2>Quash Pod</h2>
@@ -96,7 +63,7 @@ export default function JoinATeam() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
             <h2>Fil Pod</h2>
@@ -108,7 +75,7 @@ export default function JoinATeam() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
             <h2>i Pod</h2>
@@ -120,7 +87,7 @@ export default function JoinATeam() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
             <h2>Lt Pod</h2>
@@ -131,7 +98,7 @@ export default function JoinATeam() {
             </p>
           </a>
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
             <h2>Gu Pod</h2>
@@ -142,7 +109,7 @@ export default function JoinATeam() {
             </p>
           </a>
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
             <h2>Si Pod</h2>
@@ -157,7 +124,7 @@ export default function JoinATeam() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
